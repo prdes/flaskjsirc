@@ -13,6 +13,9 @@ app.listen(port, () => {
 
 app.set('view engine', 'pug')
 
-app.get('/new', function (req, res) {
-    res.render('index', { title: 'Hey', message: 'Hello there!' })
+app.get('/register', function (req, res) {
+    res.render('register', { title: 'Register', message: 'Registration' })
   })
+app.get('/verify', function (req, res) {
+res.render('verify', { title: 'Verify', message: 'Verification' })
+})
