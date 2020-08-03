@@ -10,3 +10,9 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
     console.log(`Example app listening at http:/localhost:${port}`)
 })
+
+app.set('view engine', 'pug')
+
+app.get('/new', function (req, res) {
+    res.render('index', { title: 'Hey', message: 'Hello there!' })
+  })
