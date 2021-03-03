@@ -19,7 +19,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "irc-framework": "^4.9.0",
-    "pug": "^3.0.0",
+    "pug": "^3.0.1",
     "yup": "^0.29.2"
   },
   "devDependencies": {
